@@ -1,0 +1,17 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Build and Distribution (The big files)
+build/
+dist/
+*.spec
+
+# PyCharm settings
+.idea/
+
+# Personal Data (IMPORTANT)
+*.json
