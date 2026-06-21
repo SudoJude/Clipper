@@ -1,14 +1,15 @@
-📋 Clipper
+📋 **Clipper**
 
 A modern, local-first clipboard manager built with Python and CustomTkinter. Designed for Fedora and Windows.
 
-✨ Features
+✨ **Features**
 - **Persistent History:** Saves your clips even after a reboot.
 - **Privacy Focused:** No cloud, no tracking, just local storage.
 - **Modern UI:** Built with CustomTkinter for a native feel.
 - **Cross-Platform:** Works on Linux (Fedora/Ubuntu) and Windows (Coming Soon).
 
-🚀 Getting Started
+🚀 **Getting Started**
+
 Prerequisites
 - Python 3.10+
 - `pip install customtkinter pyperclip`
