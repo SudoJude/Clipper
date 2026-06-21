@@ -5,10 +5,10 @@ import time
 import json
 import os
 
-# --- Visual Theme Constants ---
-ACCENT_COLOR = "#3A7EBF"  # Professional Blue
-DANGER_COLOR = "#E74C3C"  # Soft Red
-BG_COLOR_DARK = "#1A1A1A"  # Deep Charcoal
+# Visual Theme Constants
+ACCENT_COLOR = "#3A7EBF"
+DANGER_COLOR = "#E74C3C"
+BG_COLOR_DARK = "#1A1A1A"
 
 
 class Clipper(ctk.CTk):
@@ -25,7 +25,7 @@ class Clipper(ctk.CTk):
         self.last_clip = ""
         self.history = self.load_data()
 
-        # --- Grid Configuration ---
+        # Grid Configuration
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)  # History area expands
         self.configure(fg_color=BG_COLOR_DARK)
